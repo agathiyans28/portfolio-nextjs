@@ -1,8 +1,8 @@
 export default function NavBar() {
   return (
-    <nav className="flex items-center justify-between p-4 bg-gray-800 text-white absolute top-0 left-0 w-full">
-      <div className="text-lg font-bold">AS</div>
-      <ul className="flex space-x-4">
+    <nav className="flex items-center justify-between p-4 backdrop-blur-xs bg-white opacity-35 text-black sticky top-3 left-0 right-0">
+      <div className="text-lg font-bold relative">A.</div>
+      <ul className="flex space-x-4 relative">
         <li>
           <a href="#" className="hover:text-gray-400">
             Home
